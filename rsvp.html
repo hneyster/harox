@@ -1,0 +1,118 @@
+<script>
+ function addtext() {
+  var newtext = ".html";
+  window.location = document.querySelector("textarea").value + newtext;
+}
+</script>
+<!DOCTYPE html>
+<html>
+<head>
+<title>H+R</title>
+<meta charset="UTF-8">
+<link rel="icon" href="assets/icon.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("assets/coq.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="ourstory.html" class="w3-button w3-block w3-black">Our Story</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="location.html" class="w3-button w3-block w3-black">Location</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="rsvp.html" class="w3-button w3-block w3-black">RSVP</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Weekend of September 28th, 2024</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Welcome to<br>our wedding!</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Boulder, Colorado</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-large">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+<div class="w3-container">
+  <h2>Enter answer to Q6 from the email here and press 'Go': </h2>
+<form name="myform">
+  <textarea name="outputtext" rows="1" column="3"></textarea>
+  <br>
+  <input type="button" value="GO" onClick="addtext();">
+  </p>
+</form>
+<!--
+  <div class="w3-card-4" style="width:20%">
+  <a href='marmot.html'>
+    <img src="assets/marmot.jpg" alt="marmot" style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Marmot</p>
+      </a>
+    </div>
+  </div>
+    <a href='orca.html'>
+  <div class="w3-card-4" style="width:20%">
+    <img src="assets/orca.jpg" alt="orca" style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Orca</p>
+      </a>
+    </div>
+  </div>
+      <a href='pika.html'>
+    <div class="w3-card-2" style="width:20%">
+    <img src="assets/pika.jpg" alt="pika" style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Pika</p>
+      </a>
+    </div>
+  </div>
+     <a href='magpie.html'>
+    <div class="w3-card-4" style="width:20%">
+    <img src="assets/magpie.jpg" alt="magpie" style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Magpie</p>
+      </a>
+    </div>
+  </div>-->
+</div>
+</body>
+</html>
